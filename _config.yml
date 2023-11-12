@@ -1,0 +1,73 @@
+layout: sidebar
+style: light
+
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+  - jekyll-pdf-embed
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+projects:
+  sort_by: stars
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 9
+  exclude:
+    archived: false
+    forks: true
+    projects:
+    - ancatmara.github.io
+    - nlp-homeworks
+    - skillfactory
+    - DL-Historians-2017 
+
+social_media:
+  # behance: your_username
+  # dribbble: your_username
+  facebook: thegirlinafireplace
+  # hackerrank: your_username
+  # instagram: your_username
+  # keybase: your_username
+  # linkedin: your_username
+  # mastodon: your_username
+  # medium: your_username
+  # stackoverflow: your_user_id
+  # telegram: your_username
+  twitter: ancatleinn
+  # unsplash: your_username
+  # vk: your_username
+  # website: http://your_website_url
+  # youtube: your_username
+
+topics:
+  - name: NLP for Low-Resource Languages
+    web_url: http://www.cardamom-project.org/
+    image_url: https://raw.githubusercontent.com/ancatmara/ancatmara.github.io/master/assets/cardamom.png
+
+  - name: Language Models
+    web_url: https://paperswithcode.com/task/language-modelling
+    image_url: https://raw.githubusercontent.com/ancatmara/ancatmara.github.io/master/assets/hf.png
+
+  - name: Word Embeddings
+    web_url: https://paperswithcode.com/methods/category/word-embeddings
+    image_url: https://raw.githubusercontent.com/ancatmara/ancatmara.github.io/master/assets/tsne.png
+
+  - name: Digital Medieval Studies
+    image_url: https://raw.githubusercontent.com/ancatmara/ancatmara.github.io/master/assets/knight.png
+
+  - name: Celtic Studies
+    image_url: https://raw.githubusercontent.com/ancatmara/ancatmara.github.io/master/assets/ogham.png
+
+
+    
